@@ -4,6 +4,8 @@ O projeto consiste em uma aplicação Docker com contêineres para executar o El
 
 ## Diagrama de arquitetura
 
+<img src="https://github.com/jcampolim/iniciacao-tecnologica/blob/main/assets/diagrama-de-arquitetura.png" alt="Diagrama de arquitetura">
+
 ## Componentes
 
 ### Elasticsearch
