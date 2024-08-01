@@ -34,10 +34,10 @@ Nesse projeto, o Kibana é usado para visualizar e analisar os dados coletados d
 
 ### Docker
 
-O Docker uma plataforma de código aberto que visa a criação de softwares em pacotes denominados contêineres, eles são unidades isoladas que agrupam seus próprios programas, bibliotecas e arquivos de configuração.
+O Docker uma plataforma de código aberto que facilita a criação de softwares em pacotes denominados contêineres. Esses contêineres são unidades isoladas que incluem programas, bibliotecas e arquivos de configuração necessários para a execução de cada pacote. Eles funcionam como máquinas virtuais modulares e leves, permitindo uma execução eficiente e independente para cada contêiner, otimizando o uso da infraestrutura e mantendo um ambiente seguro.
 
-Os contêineres funcionam como máquinas virtuais Linux modulares e leve de serem executadas. Cada máquina vitual consegue ser executada de maneira independente, otimizando o uso da infraestrutura e mantendo um ambiente seguro.
+É uma ferramenta muito popular por sua portabilidade e sua escalabilidade. Os contêineres podem ser executados em qualquer sistema que suporte o Docker e é fácil criar e gerenciar múltiplos contêineres.
 
-É possível criar um ambiente do Elasticsearch integrado com o Kibana usando o Docker, mas há algumas limitações nesse ambiente. Dessa forma, usamos outra ferramenta do Docker, o Docker Compose, para criar um ambiente mais completo.
+Para criar um ambiente com o Elasticsearch integrado ao Kibana, é possível utilizar o Docker para criar contêineres individuais. Entretanto, há algumas limitações nessa abordagem e, para criar um ambiente mais completo, é possível usar o Docker Compose, uma ferramenta da mesma empresa. Com o Compose, é possível gerenciar múltiplos contêineres de forma simples e eficaz.
 
 * Link para a documentação: [Docker docs](https://docs.docker.com/compose/).
