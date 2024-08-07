@@ -15,6 +15,10 @@ docker/
 │   └── download.py
 ```
 
+Todas as configurações necessárias para criar os contêineres do Elasticsearch e do Kibana foram obtidas na documentação oficial da Elastic.
+
+* Link para a documentação: [Elastic Stack and Docker Compose](https://www.elastic.co/pt/blog/getting-started-with-the-elastic-stack-and-docker-compose).
+
 ### `docker-compose.yml`
 
 Para executar os arquivos com o Docker Compose, é preciso um arquivo `YAML` com todas as informações e comandos dos serviços que serão criados. Os serviços são definidos com todas as configurações dos contêineres do Docker.
@@ -27,7 +31,7 @@ No caso deste projeto, o arquivo `YAML` estabelece inicialmente os volumes da ap
 
 * `kibana`: executa o Kibana para a visualização de dados na porta 5601. Depende dos dados presentes no Elasticsearch, então esse serviço só é executado após a inicialização do contêiner `es01` .
 
-* `app`: responsável por compilar e executar a aplicação Python que irá se comunicar com o Elasticsearch. Este sesrviço também depende que o contêiner `es01` esteja inicializado.
+* `app`: responsável por compilar e executar a aplicação Python que irá se comunicar com o Elasticsearch. Este sesrviço também depende que o contêiner `es01` esteja inicializado. 
 
 ### `.env`
 
@@ -44,6 +48,8 @@ O `Dockerfile` é um arquivo de texto com todos os comandos para criar uma image
 3. Instalar as dependências necessárias para executar a imagem.
 4. Especificar o comando para iniciar o contêiner.
 
+* Link para a documentação: [Dockerfile](https://docs.docker.com/reference/dockerfile/).
+
 ### `app/data.xlsx`
 
 Este arquivo contém os dados que serão adicionados ao Elasticsearch. Ele será lido pelo código Python, que irá tratar os dados e realizar a conexão com o Elasticsearch.
@@ -57,7 +63,7 @@ O `main.py` um código Python que será usado para se comunicar com o Elasticsea
 3. Tratar dos dados.
 4. Inserir os dados no Elasticsearch por meio da API.
 
-Algumas variações do código são abordadas na parte de [Scripts Python]() da documentação.
+Algumas variações do código são abordadas na parte de [Scripts Python](https://github.com/jcampolim/iniciacao-tecnologica/blob/main/docs/scripts-python.md) da documentação.
   
 ### `app/requirements.txt`
 
@@ -68,10 +74,14 @@ Algumas variações do código são abordadas na parte de [Scripts Python]() da 
 * `pandas`: biblioteca para a leitura e análise de dados, capaz de ler diversos formatos de arquivo.
 * `openpyxl`: biblioteca complementar ao `pandas` para a leitura de arquivos Excel.
 
+* Link para as documentações: [Numpy](https://numpy.org/doc/), [Pandas](https://pandas.pydata.org/docs/) e [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/).
+
 ### `download/download.py`
 
-Este arquivo é opcional. Nesse projeto, os dados são armazenados em uma pasta do [Google Drive](). Porém eles não são atualizados com frequência, então não há necessidade de automatizar a coleta de dados. Dessa forma, o arquivo contém código Python simples responsável por fazer o download do arquivo, cujos dados serão encaminhados para o Elasticsearch. 
+Este arquivo é opcional. Nesse projeto, os dados são armazenados em uma pasta do [Google Drive](https://drive.google.com/drive/folders/1BJVmQrSIuSqF2MDvw-xvkUuKy5Ckfdj8?usp=sharing). Porém eles não são atualizados com frequência, então não há necessidade de automatizar a coleta de dados. Dessa forma, o arquivo contém código Python simples responsável por fazer o download do arquivo, cujos dados serão encaminhados para o Elasticsearch. 
 
 Essa etapa é realizada manualmente, antes dos contêineres serem iniciados.
 
 Para baixar os arquivos diretamente do Google Drive, é possível usar a biblioteca `gdown`.
+
+* Link para a documentação: [Gdwon](https://pypi.org/project/gdown/).
