@@ -15,4 +15,5 @@ Os dados são coletados a partir de uma pasta do Google Drive, são tradados e u
 - [Configuração de ambiente]();
 - [Contribuições futuras]();
 - [Estrutura de arquivos]();
+- [Scripts Python]();
 - [Visualização dos dados]();
