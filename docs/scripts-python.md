@@ -4,7 +4,7 @@ Um script Python é usado para comunicar os dados do Google Drive com o Docker. 
 
 Em ambos os casos, a primeira coisa a ser feita é indicar a porta que o Elasticsearch está alocado (definida no arquivo `docker-compose.yml`, mas por padrão é 9200). 
 
-```
+```python
 import os
 import Elasticsearch from elasticsearch
 
@@ -26,7 +26,7 @@ Para verificar se a conexão foi estabelecida com sucesso, é possível usar o c
 
 Para criar um índice usamos o comando `es.indices.create(index=index)`. Porém, antes de criar um índice é importante definir suas propriedades, ou seja, é importante definir os dados e os tipos de dados que serão armazenados. Para fazer isso, utilizamos um dicionário com todas os campos mapeados, como no exemplo abaixo:
 
-```
+```python
 if es.ping():
     index = "parcial"
 
@@ -63,7 +63,7 @@ O Elasticsearch possui alguns tipos de dados nativos, entre eles: keyword, text,
 
 Para adicionar dados a um índice já existente, primeiro é preciso ler os dados do arquivo. Para isso, é possível usar a biblioteca do Python `pandas` (que será instalada junto com os requerimentos). Além disso, também é preciso estabelecer quais colunas correspondem aos dados mapeados no índice. Um exemplo de como esse código ficaria é:
 
-```
+```python
 import pandas as pd
 
 index = "dados-meteorologicos"

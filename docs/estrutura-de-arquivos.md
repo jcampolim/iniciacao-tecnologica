@@ -17,7 +17,7 @@ docker/
 
 Todas as configurações necessárias para criar os contêineres do Elasticsearch e do Kibana foram obtidas na documentação oficial da Elastic.
 
-* Link para a documentação: [Elastic Stack and Docker Compose](https://www.elastic.co/pt/blog/getting-started-with-the-elastic-stack-and-docker-compose).
+* Documentação: [Elastic Stack and Docker Compose](https://www.elastic.co/pt/blog/getting-started-with-the-elastic-stack-and-docker-compose).
 
 ### `docker-compose.yml`
 
@@ -35,7 +35,7 @@ No caso deste projeto, o arquivo `YAML` estabelece inicialmente os volumes da ap
 
 ### `.env`
 
-O arquivo `.env` possui todas as variáveis de ambiente que são usadas para configurar os serviços no `docker-compose.yml`. Este arquivo é essencial para manter o código mais seguro, pois não precisa ser compartilhado, protegendo informações sensíveis como as senhas do Elasticsearch e do Kibana. Além disso, facilita a mudança de variáveis, já que essas modificações precisam ser feitas em apenas um lugar.
+O arquivo `.env` possui todas as variáveis de ambiente que são usadas para configurar os serviços no `docker-compose.yml`. Este arquivo é essencial para manter o código mais seguro, pois ele não precisa ser compartilhado, protegendo informações sensíveis como as senhas do Elasticsearch e do Kibana. Além disso, facilita a mudança de variáveis, já que essas modificações precisam ser feitas em apenas um lugar.
 
 ### `app/Dockerfile`
 
@@ -48,7 +48,7 @@ O `Dockerfile` é um arquivo de texto com todos os comandos para criar uma image
 3. Instalar as dependências necessárias para executar a imagem.
 4. Especificar o comando para iniciar o contêiner.
 
-* Link para a documentação: [Dockerfile](https://docs.docker.com/reference/dockerfile/).
+* Documentação: [Dockerfile](https://docs.docker.com/reference/dockerfile/).
 
 ### `app/data.xlsx`
 
@@ -74,7 +74,9 @@ Algumas variações do código são abordadas na parte de [Scripts Python](https
 * `pandas`: biblioteca para a leitura e análise de dados, capaz de ler diversos formatos de arquivo.
 * `openpyxl`: biblioteca complementar ao `pandas` para a leitura de arquivos Excel.
 
-* Link para as documentações: [Numpy](https://numpy.org/doc/), [Pandas](https://pandas.pydata.org/docs/) e [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/).
+* Documentação Numpy: [Numpy](https://numpy.org/doc/).
+* Documentação Pandas: [Pandas](https://pandas.pydata.org/docs/).
+* Documentação OpenPyXL: [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/).
 
 ### `download/download.py`
 
@@ -84,4 +86,4 @@ Essa etapa é realizada manualmente, antes dos contêineres serem iniciados.
 
 Para baixar os arquivos diretamente do Google Drive, é possível usar a biblioteca `gdown`.
 
-* Link para a documentação: [Gdwon](https://pypi.org/project/gdown/).
+* Documentação: [Gdwon](https://pypi.org/project/gdown/).
