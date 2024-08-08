@@ -22,6 +22,8 @@ Para que esse comando funcione, é preciso ter instalado o Elasticsearch Python 
 
 Para verificar se a conexão foi estabelecida com sucesso, é possível usar o comando `es.ping()`, que retornará um valor booleano indicando se o Python conseguiu se conectar. Se a conexão com o Elasticsearch for estabelecida, então é possível dar continuidade ao script.
 
+> Os scrips usados nesse projeto estão na pasta [scripts](https://github.com/jcampolim/iniciacao-tecnologica/tree/main/scripts), eles estão separados pelo tipo de dado e pelo modelo do código (criação do índice ou adição de dados).
+
 ### Criando um índice no ELasticsearch
 
 Para criar um índice usamos o comando `es.indices.create(index=index)`. Porém, antes de criar um índice é importante definir suas propriedades, ou seja, é importante definir os dados e os tipos de dados que serão armazenados. Para fazer isso, utilizamos um dicionário com todas os campos mapeados, como no exemplo abaixo:
