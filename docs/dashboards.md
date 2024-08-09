@@ -4,7 +4,7 @@ A seguir estão os painéis desenvolvidos durante o decorrer do projeto.
 
 ### Dados de Inversores
 
-Este dashboard possui os dados de inversores, são dados técnicos utilizados para monitorar os equipamentos da usina solar. A análise desses dados permite encontrar padrões de eficiencia e falhas nos equipamentos.
+Este dashboard possui os dados de inversores, são dados técnicos utilizados para monitorar os equipamentos da usina solar. A análise desses dados permite encontrar padrões de eficiência e falhas nos equipamentos.
 
 <img src="https://github.com/jcampolim/iniciacao-tecnologica/blob/main/assets/inversores.png" alt="Dashboard de inversores feito com o Kibana">
 

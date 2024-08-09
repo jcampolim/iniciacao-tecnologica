@@ -14,7 +14,7 @@ O Elasticsearch é um mecanismo de busca distribuído e de código aberto, proje
 
 É muito utilizado em casos de uso como pesquisa textual, análise de logs, monitoramento de sistemas e análise de dados, oferecendo escalabilidade, flexibilidade e uma poderosa capacidade de pesquisa e indexação. É comumente empregado em ambientes empresariais para facilitar a busca e análise de dados em larga escala.
 
-O Elasticsearch faz parte de uma pilha de softwares livres, conhecida como Elastic Stack, que tem como produtos: Elasticsearch, Kibana, Beats e Logstash. A utilização em conjunto dessas ferramentas permite a coleta de dados de dados de maneira confiável e segura, juntamente com buscas, análises e visualizações desses dados. Neste projeto são usados apenas o Elasticsearch e o Kibana para armazenamento, buscas, análises e visualizações.
+O Elasticsearch faz parte de uma pilha de softwares livres, conhecida como Elastic Stack, que tem como produtos: Elasticsearch, Kibana, Beats e Logstash. A utilização em conjunto dessas ferramentas permite a coleta de dados de maneira confiável e segura, juntamente com buscas, análises e visualizações desses dados. Neste projeto são usados apenas o Elasticsearch e o Kibana para armazenamento, buscas, análises e visualizações.
 
 Dessa forma, da maneira que está sendo utilizado, o Elasticsearch funcionará como um banco de dados não relacional responsável por armazenar grandes quantidades de dados e realizar a busca entre esses dados.
 

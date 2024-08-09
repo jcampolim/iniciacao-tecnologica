@@ -59,7 +59,7 @@ Este arquivo contém os dados que serão adicionados ao Elasticsearch. Ele será
 O `main.py` um código Python que será usado para se comunicar com o Elasticsearch. Suas principais funções são:
 
 1. Conectar com a API do Elasticsearch.
-2. Ler dos dados que seão usados.
+2. Ler os dados que seão usados.
 3. Tratar dos dados.
 4. Inserir os dados no Elasticsearch por meio da API.
 
