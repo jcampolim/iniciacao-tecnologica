@@ -107,6 +107,6 @@ for i, row in df.iterrows():
     es.index(index=index, body=doc)
 ```
 
-Alguns arquivos podem ser mais complexos e tratar os dados antes de serem enviados para o Elasticsearch. Um caso que ocorreu durante o desenvolvimento do projeto foi com os dados de inversores, que tinham diversas colunas vazias ou com dados que não condiziam ao tipo que foi estabelecido para eles.
+Alguns arquivos podem ser mais complexos e é preciso tratar os dados antes de serem enviados para o Elasticsearch. Um caso que ocorreu durante o desenvolvimento do projeto foi com os dados de inversores, que tinham diversas colunas vazias ou com dados que não condiziam ao tipo que foi estabelecido para eles.
 
 A parte de colunas vazias pode ser resolvida facilmente com o comando `df.dropna()` do Pandas. Já para os dados com os tipos diferentes, uma solução foi criar uma função que percorre cada linha para verificar se os dados estão adequados. Essa solução nem sempre é a melhor, em casos de menor volumetria é possível fazer o tratamento somente nas colunas mais despadronizadas, que têm uma tendência maior a erros de leitura.
