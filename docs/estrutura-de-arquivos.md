@@ -29,7 +29,7 @@ No caso deste projeto, o arquivo `YAML` estabelece inicialmente os volumes da ap
 
 * `es01`: serviço que executa o Elasticsearch, geralmente na porta 9200 do computador.
 
-* `kibana`: executa o Kibana para a visualização de dados na porta 5601. Depende dos dados presentes no Elasticsearch, então esse serviço só é executado após a inicialização do contêiner `es01` .
+* `kibana`: executa o Kibana para a visualização de dados na porta 5601. Depende dos dados presentes no Elasticsearch, então este serviço só é executado após a inicialização do contêiner `es01` .
 
 * `app`: responsável por compilar e executar a aplicação Python que irá se comunicar com o Elasticsearch. Este sesrviço também depende que o contêiner `es01` esteja inicializado. 
 
@@ -80,7 +80,7 @@ Algumas variações do código são abordadas na parte de [Scripts Python](https
 
 ### `download/download.py`
 
-Este arquivo é opcional. Nesse projeto, os dados são armazenados em uma pasta do [Google Drive](https://drive.google.com/drive/folders/1BJVmQrSIuSqF2MDvw-xvkUuKy5Ckfdj8?usp=sharing). Porém eles não são atualizados com frequência, então não há necessidade de automatizar a coleta de dados. Dessa forma, o arquivo contém código Python simples responsável por fazer o download do arquivo, cujos dados serão encaminhados para o Elasticsearch. 
+Este arquivo é opcional. Neste projeto, os dados são armazenados em uma pasta do [Google Drive](https://drive.google.com/drive/folders/1BJVmQrSIuSqF2MDvw-xvkUuKy5Ckfdj8?usp=sharing). Porém eles não são atualizados com frequência, então não há necessidade de automatizar a coleta de dados. Dessa forma, o arquivo contém código Python simples responsável por fazer o download do arquivo, cujos dados serão encaminhados para o Elasticsearch. 
 
 Essa etapa é realizada manualmente, antes dos contêineres serem iniciados.
 

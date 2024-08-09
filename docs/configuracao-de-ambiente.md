@@ -42,4 +42,4 @@ Caso o objetivo não seja executar um ambiente Docker, é possível instalar o E
 * Instalação do Elasticsearch: [Installing Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/8.14/install-elasticsearch.html).
 * Instalação do Kibana: [Install Kibana](https://www.elastic.co/guide/en/kibana/8.14/install.html).
 
-Para mais detalhes da instalação é possível consultar esse guia de instalação no Windows: [Instalação no Windows](https://github.com/jcampolim/wtt-elasticsearch/blob/main/instalacao-windows.md). Embora, o guia seja direcionado para o Windows, os passos que exigem alguma ação manual são semelhantes para os outros sistemas operacionais.
+Para mais detalhes da instalação é possível consultar este guia de instalação no Windows: [Instalação no Windows](https://github.com/jcampolim/wtt-elasticsearch/blob/main/instalacao-windows.md). Embora, o guia seja direcionado para o Windows, os passos que exigem alguma ação manual são semelhantes para os outros sistemas operacionais.

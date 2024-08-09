@@ -27,7 +27,7 @@ O Kibana é uma interface gráfica de código aberto que pode se conectar com qu
 
 O Kibana faz parte do Elastic Stack, então ele se conecta muito bem com o Elasticsearch, facilitando a comunicação entre eles para o desenvolvimento de dashboards personalizados.
 
-Nesse projeto, o Kibana é usado para visualizar e analisar os dados coletados da usina solar, permitindo a criação de gráficos para exibir os dados meteorológicos e de produção de energia.
+Neste projeto, o Kibana é usado para visualizar e analisar os dados coletados da usina solar, permitindo a criação de gráficos para exibir os dados meteorológicos e de produção de energia.
 
 * Versão utilizada: 8.14.0.
 * Documentação: [Kibana Guide](https://www.elastic.co/guide/en/kibana/current/index.html).
