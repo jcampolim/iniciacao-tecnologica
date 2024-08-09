@@ -10,11 +10,11 @@ Os dados são coletados a partir de uma pasta do [Google Drive](https://drive.go
 
 A usina solar coleta três tipos principais de dados: inversores, subsistemas e meteorológicos. 
 
-* <strong>Dados de inversores:</strong> comtêm informações de nível técnico sobre o desempenho dos painéis solares.
+* <strong>Dados de inversores:</strong> contêm informações de nível técnico sobre o desempenho dos painéis solares.
 
 * <strong>Dados de subsistemas:</strong> são divididos em três categorias (com otimizador, sem otimizador e parcial). A análise desses dados têm como objetivo avaliar a eficácia do otimizador, que, até o momento, não demonstrou resultados positivos.
 
-* <strong>Dados meteorológicos:</strong> informações climáticas, que poodem ser correlacionadas com a produção de energia dos painéis solares.
+* <strong>Dados meteorológicos:</strong> informações climáticas, que podem ser correlacionadas com a produção de energia dos painéis solares.
 
 ### Documentação
 
