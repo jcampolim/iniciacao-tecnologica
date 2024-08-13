@@ -1,3 +1,6 @@
+# Este arquivo foi baseado na documentação oficial do Elastic.
+#  https://www.elastic.co/pt/blog/getting-started-with-the-elastic-stack-and-docker-compose
+
 volumes:
  certs:
    driver: local
