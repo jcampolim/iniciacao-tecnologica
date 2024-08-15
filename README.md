@@ -1,5 +1,7 @@
 # Projeto de monitoramento de dados com o Elasticsearch
 
+> Autores: Júlia Campolim de Oste e Rogério de Oliveira
+
 <img src="https://github.com/jcampolim/iniciacao-tecnologica/blob/main/assets/subsistemas.png" alt="Dashboard de subsistemas feito com o Kibana">
 
 Este projeto foi desenvolvido como parte de uma iniciação tecnológica para monitorar os dados de uma usina solar localizada no campus Higienopólis da Universidade Presbiteriana Mackenzie.
@@ -16,6 +18,10 @@ A usina solar coleta três tipos principais de dados: inversores, subsistemas e 
 
 * <strong>Dados meteorológicos:</strong> informações climáticas, que podem ser correlacionadas com a produção de energia dos painéis solares.
 
+Durante a minha tragetória, eu tive a oportunidade de ministrar uma oficina introdutória de Elasticsearch e Kibana em um workshop do Mackenzie. Nessa apresentação, eu abordei conceitos básicos do Elastic Stack e propus uma dinâmica para cada parcipante criar alguns gráficos a partir de dados meteorológicos separados previamente.
+
+* Material teórico da oficina: [Elasticsearch](https://github.com/jcampolim/wtt-elasticsearch).
+
 ### Documentação
 
 - [Arquitetura](https://github.com/jcampolim/iniciacao-tecnologica/blob/main/docs/arquitetura.md);
@@ -24,3 +30,7 @@ A usina solar coleta três tipos principais de dados: inversores, subsistemas e 
 - [Dashboards](https://github.com/jcampolim/iniciacao-tecnologica/blob/main/docs/dashboards.md);
 - [Estrutura de arquivos](https://github.com/jcampolim/iniciacao-tecnologica/blob/main/docs/estrutura-de-arquivos.md);
 - [Scripts Python](https://github.com/jcampolim/iniciacao-tecnologica/blob/main/docs/scripts-python.md);
+
+### Agradecimentos 
+
+A todos que me apoiaram na minha jornada até a conclusão deste projeto, especialmente ao meu orientador, professor Rogério de Oliveira, e à Universidade Presbiteriana Mackenzie por me dar esta oportunidade e me ajudar financeiramente por meio da bolsa Mackenzie.
