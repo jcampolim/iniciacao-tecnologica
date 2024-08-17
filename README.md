@@ -1,4 +1,4 @@
-# Projeto de monitoramento de dados com o Elasticsearch
+# Elasticsearch: uma plataforma para monitoramento de sinais
 
 > Autores: Júlia Campolim de Oste e Rogério de Oliveira
 
