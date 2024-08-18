@@ -11,6 +11,9 @@ docker/
 │   ├── data.xlsx
 │   ├── main.py
 │   └── requirements.txt
+├── backup/
+│   ├── esdata01.tar
+│   └── kibanadata.tar
 ├── download/
 │   └── download.py
 ```
@@ -77,6 +80,14 @@ Algumas variações do código são abordadas na parte de [Scripts Python](https
 * Documentação Numpy: [Numpy](https://numpy.org/doc/).
 * Documentação Pandas: [Pandas](https://pandas.pydata.org/docs/).
 * Documentação OpenPyXL: [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/).
+
+### `backup/esdatao1.tar`
+
+Este arquivo contém todos os dados que estão sendo armazenados no Elasticsearch. É utilizado para exportar o projeto para outras máquinas, permitindo a transferência de todos os dados sem que seja necessário reinserir manualmente as informações.
+
+### `backup/kibanadata.tar`
+
+Este arquivo possui todas as configurações dos dashboards criados durante o desenvolvimento do projeto. Ele facilita a configuração do Kibana em novas máquinas, evitando a necessidade de recriar dashboards do zero.
 
 ### `download/download.py`
 
