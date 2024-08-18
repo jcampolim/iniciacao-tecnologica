@@ -1,4 +1,4 @@
-# Projeto de monitoramento de dados com o Elasticsearch
+# Elasticsearch: uma plataforma para monitoramento de sinais
 
 > Autores: Júlia Campolim de Oste e Rogério de Oliveira
 
@@ -33,4 +33,4 @@ Durante a minha tragetória, eu tive a oportunidade de ministrar uma oficina int
 
 ### Agradecimentos 
 
-A todos que me apoiaram na minha jornada até a conclusão deste projeto, especialmente ao meu orientador, professor Rogério de Oliveira, e à Universidade Presbiteriana Mackenzie por me dar esta oportunidade e me ajudar financeiramente por meio da bolsa Mackenzie.
+Agradeço ao meu orientador, professor Rogério de Oliveira, por todo apoio durante esta jornada e à Universidade Presbiteriana Mackenzie pela oportunidade.
