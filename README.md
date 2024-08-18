@@ -22,6 +22,14 @@ Durante a minha tragetória, eu tive a oportunidade de ministrar uma oficina int
 
 * Material teórico da oficina: [Elasticsearch](https://github.com/jcampolim/wtt-elasticsearch).
 
+### Como executar
+
+<strong>Pré-requisito:</strong> possuir o docker instalado na máquina que irá hospedar o projeto. Mais detalhes em: [Configuração de ambiente](https://github.com/jcampolim/iniciacao-tecnologica/blob/main/docs/configuracao-de-ambiente.md).
+
+Para iniciar o projeto, basta executar `docker-compose up` no terminal. 
+
+Entretanto, na primeira vez executando, é preciso importar os dados e as configurações de ambiente, este processo está detalhado em: [Primeira execução](https://github.com/jcampolim/iniciacao-tecnologica/blob/main/docs/configuracao-de-ambiente.md).
+
 ### Documentação
 
 - [Arquitetura](https://github.com/jcampolim/iniciacao-tecnologica/blob/main/docs/arquitetura.md);
