@@ -1,8 +1,8 @@
-### Primeira execução
+# Primeira execução
 
 Na primeira execução do projeto, é necessário importar os dados e as configurações dos dashboards. Para isso, abra duas abas do terminal no diretório do projeto e siga os passos abaixo:
 
-##### 1. Importar os dados do Elasticsearch
+### 1. Importar os dados do Elasticsearch
 
 Na primeira aba do terminal, execute o comando para iniciar um contêiner temporário:
 
@@ -25,7 +25,7 @@ docker stop temp-container
 docker rm temp-container
 ```
 
-##### 2. Importar configurações dos dashboards do Kibana
+### 2. Importar configurações dos dashboards do Kibana
 
 Na primeira aba do terminal, repita o processo para a criação de um contêiner temporário para o Kibana:
 
